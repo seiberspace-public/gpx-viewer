@@ -3,9 +3,25 @@
 </template>
 
 <script>
-import { defineComponent } from 'vue'
+import {
+  defineComponent,
+  provide,
+  reactive,
+} from 'vue';
 
+//------------------------------------------------------------------------------
 export default defineComponent({
-  name: 'App'
-})
+  name: 'App',
+
+  setup() {
+    // These should survive destruction of a map, so provide them from the top.
+    const providerLayers = reactive([]);
+    const dataLayers = reactive([]);
+
+    provide('mapLayers', {
+      providerLayers,
+      dataLayers,
+    });
+  },
+});
 </script>

@@ -1,4 +1,4 @@
-# Seiberspace Maps (gpx-viewer)
+# GPX Viewer (gpx-viewer)
 
 A viewer for GPX-files.
 

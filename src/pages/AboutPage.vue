@@ -1,8 +1,14 @@
 <template>
   <q-page class="flex column items-center q-pa-sm q-pa-md-lg">
-    <AppAbout>
-      <component :is="GdprAgreement" />
-    </AppAbout>
+    <q-btn
+      unelevated
+      size="sm"
+      class="self-start"
+      icon="arrow_back"
+      :label="t('g.back')"
+      @click="back"
+    />
+    <AppAbout />
   </q-page>
 </template>
 
@@ -10,14 +16,13 @@
 import { defineComponent } from 'vue';
 import { useMeta } from 'quasar';
 import { useI18n } from 'vue-i18n';
+import { useRouter } from 'vue-router';
 
 import AppAbout from 'components/AppAbout';
 
-import useContent from 'i18n/useContent.js';
-
 //------------------------------------------------------------------------------
 export default defineComponent({
-  name: 'IndexPage',
+  name: 'AboutPage',
 
   components: {
     AppAbout,
@@ -26,12 +31,15 @@ export default defineComponent({
   setup() {
     const { t } = useI18n();
 
+    const router = useRouter();
+
     useMeta(() => ({
-      title: t('appTitle'),
+      title: t('aboutTitle'),
     }));
 
     return {
-      GdprAgreement: useContent('GdprAgreement'),
+      t,
+      back: router.back,
     };
   },
 });

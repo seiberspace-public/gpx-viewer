@@ -1,17 +1,16 @@
 <template>
-  <q-page class="flex column items-center q-pa-sm q-pa-md-lg">
-    <AppAbout>
-      <component :is="GdprAgreement" />
-    </AppAbout>
-  </q-page>
+  <component
+    class="about-card"
+    :is="AppAbout"
+    :flat="$q.screen.lt.sm"
+  >
+    <slot />
+  </component>
 </template>
 
 <script>
 import { defineComponent } from 'vue';
-import { useMeta } from 'quasar';
 import { useI18n } from 'vue-i18n';
-
-import AppAbout from 'components/AppAbout';
 
 import useContent from 'i18n/useContent.js';
 
@@ -19,19 +18,13 @@ import useContent from 'i18n/useContent.js';
 export default defineComponent({
   name: 'IndexPage',
 
-  components: {
-    AppAbout,
-  },
-
   setup() {
     const { t } = useI18n();
-
-    useMeta(() => ({
-      title: t('appTitle'),
-    }));
+    const AppAbout = useContent('AppAbout');
 
     return {
-      GdprAgreement: useContent('GdprAgreement'),
+      t,
+      AppAbout,
     };
   },
 });

@@ -1,0 +1,960 @@
+[
+  {
+    "label": "AzureMaps",
+    "disabled": true,
+    "children": [
+      {
+        "label": "MicrosoftBaseDarkGrey",
+        "provider": "AzureMaps.MicrosoftBaseDarkGrey"
+      },
+      {
+        "label": "MicrosoftBaseHybridRoad",
+        "provider": "AzureMaps.MicrosoftBaseHybridRoad"
+      },
+      {
+        "label": "MicrosoftBaseRoad",
+        "provider": "AzureMaps.MicrosoftBaseRoad"
+      },
+      {
+        "label": "MicrosoftImagery",
+        "provider": "AzureMaps.MicrosoftImagery"
+      },
+      {
+        "label": "MicrosoftTerraMain",
+        "provider": "AzureMaps.MicrosoftTerraMain"
+      },
+      {
+        "label": "MicrosoftWeatherInfraredMain",
+        "provider": "AzureMaps.MicrosoftWeatherInfraredMain"
+      },
+      {
+        "label": "MicrosoftWeatherRadarMain",
+        "provider": "AzureMaps.MicrosoftWeatherRadarMain"
+      }
+    ]
+  },
+  {
+    "label": "BasemapAT",
+    "children": [
+      {
+        "label": "basemap",
+        "provider": "BasemapAT.basemap"
+      },
+      {
+        "label": "grau",
+        "provider": "BasemapAT.grau"
+      },
+      {
+        "label": "highdpi",
+        "provider": "BasemapAT.highdpi"
+      },
+      {
+        "label": "orthofoto",
+        "provider": "BasemapAT.orthofoto"
+      },
+      {
+        "label": "overlay",
+        "provider": "BasemapAT.overlay"
+      },
+      {
+        "label": "surface",
+        "provider": "BasemapAT.surface"
+      },
+      {
+        "label": "terrain",
+        "provider": "BasemapAT.terrain"
+      }
+    ]
+  },
+  {
+    "label": "CartoDB",
+    "children": [
+      {
+        "label": "DarkMatter",
+        "provider": "CartoDB.DarkMatter"
+      },
+      {
+        "label": "DarkMatterNoLabels",
+        "provider": "CartoDB.DarkMatterNoLabels"
+      },
+      {
+        "label": "DarkMatterOnlyLabels",
+        "provider": "CartoDB.DarkMatterOnlyLabels"
+      },
+      {
+        "label": "Positron",
+        "provider": "CartoDB.Positron"
+      },
+      {
+        "label": "PositronNoLabels",
+        "provider": "CartoDB.PositronNoLabels"
+      },
+      {
+        "label": "PositronOnlyLabels",
+        "provider": "CartoDB.PositronOnlyLabels"
+      },
+      {
+        "label": "Voyager",
+        "provider": "CartoDB.Voyager"
+      },
+      {
+        "label": "VoyagerLabelsUnder",
+        "provider": "CartoDB.VoyagerLabelsUnder"
+      },
+      {
+        "label": "VoyagerNoLabels",
+        "provider": "CartoDB.VoyagerNoLabels"
+      },
+      {
+        "label": "VoyagerOnlyLabels",
+        "provider": "CartoDB.VoyagerOnlyLabels"
+      }
+    ]
+  },
+  {
+    "label": "CyclOSM",
+    "provider": "CyclOSM"
+  },
+  {
+    "label": "Esri",
+    "children": [
+      {
+        "label": "DeLorme",
+        "provider": "Esri.DeLorme"
+      },
+      {
+        "label": "NatGeoWorldMap",
+        "provider": "Esri.NatGeoWorldMap"
+      },
+      {
+        "label": "OceanBasemap",
+        "provider": "Esri.OceanBasemap"
+      },
+      {
+        "label": "WorldGrayCanvas",
+        "provider": "Esri.WorldGrayCanvas"
+      },
+      {
+        "label": "WorldImagery",
+        "provider": "Esri.WorldImagery"
+      },
+      {
+        "label": "WorldPhysical",
+        "provider": "Esri.WorldPhysical"
+      },
+      {
+        "label": "WorldShadedRelief",
+        "provider": "Esri.WorldShadedRelief"
+      },
+      {
+        "label": "WorldStreetMap",
+        "provider": "Esri.WorldStreetMap"
+      },
+      {
+        "label": "WorldTerrain",
+        "provider": "Esri.WorldTerrain"
+      },
+      {
+        "label": "WorldTopoMap",
+        "provider": "Esri.WorldTopoMap"
+      }
+    ]
+  },
+  {
+    "label": "FreeMapSK",
+    "provider": "FreeMapSK"
+  },
+  {
+    "label": "GeoportailFrance",
+    "disabled": true,
+    "children": [
+      {
+        "label": "orthos",
+        "provider": "GeoportailFrance.orthos"
+      },
+      {
+        "label": "parcels",
+        "provider": "GeoportailFrance.parcels"
+      },
+      {
+        "label": "plan",
+        "provider": "GeoportailFrance.plan"
+      }
+    ]
+  },
+  {
+    "label": "HERE",
+    "disabled": true,
+    "children": [
+      {
+        "label": "basicMap",
+        "provider": "HERE.basicMap"
+      },
+      {
+        "label": "carnavDayGrey",
+        "provider": "HERE.carnavDayGrey"
+      },
+      {
+        "label": "hybridDay",
+        "provider": "HERE.hybridDay"
+      },
+      {
+        "label": "hybridDayGrey",
+        "provider": "HERE.hybridDayGrey"
+      },
+      {
+        "label": "hybridDayMobile",
+        "provider": "HERE.hybridDayMobile"
+      },
+      {
+        "label": "hybridDayTraffic",
+        "provider": "HERE.hybridDayTraffic"
+      },
+      {
+        "label": "hybridDayTransit",
+        "provider": "HERE.hybridDayTransit"
+      },
+      {
+        "label": "mapLabels",
+        "provider": "HERE.mapLabels"
+      },
+      {
+        "label": "normalDay",
+        "provider": "HERE.normalDay"
+      },
+      {
+        "label": "normalDayCustom",
+        "provider": "HERE.normalDayCustom"
+      },
+      {
+        "label": "normalDayGrey",
+        "provider": "HERE.normalDayGrey"
+      },
+      {
+        "label": "normalDayGreyMobile",
+        "provider": "HERE.normalDayGreyMobile"
+      },
+      {
+        "label": "normalDayMobile",
+        "provider": "HERE.normalDayMobile"
+      },
+      {
+        "label": "normalDayTraffic",
+        "provider": "HERE.normalDayTraffic"
+      },
+      {
+        "label": "normalDayTransit",
+        "provider": "HERE.normalDayTransit"
+      },
+      {
+        "label": "normalDayTransitMobile",
+        "provider": "HERE.normalDayTransitMobile"
+      },
+      {
+        "label": "normalNight",
+        "provider": "HERE.normalNight"
+      },
+      {
+        "label": "normalNightGrey",
+        "provider": "HERE.normalNightGrey"
+      },
+      {
+        "label": "normalNightGreyMobile",
+        "provider": "HERE.normalNightGreyMobile"
+      },
+      {
+        "label": "normalNightMobile",
+        "provider": "HERE.normalNightMobile"
+      },
+      {
+        "label": "normalNightTransit",
+        "provider": "HERE.normalNightTransit"
+      },
+      {
+        "label": "normalNightTransitMobile",
+        "provider": "HERE.normalNightTransitMobile"
+      },
+      {
+        "label": "pedestrianDay",
+        "provider": "HERE.pedestrianDay"
+      },
+      {
+        "label": "pedestrianNight",
+        "provider": "HERE.pedestrianNight"
+      },
+      {
+        "label": "reducedDay",
+        "provider": "HERE.reducedDay"
+      },
+      {
+        "label": "reducedNight",
+        "provider": "HERE.reducedNight"
+      },
+      {
+        "label": "satelliteDay",
+        "provider": "HERE.satelliteDay"
+      },
+      {
+        "label": "terrainDay",
+        "provider": "HERE.terrainDay"
+      },
+      {
+        "label": "terrainDayMobile",
+        "provider": "HERE.terrainDayMobile"
+      },
+      {
+        "label": "trafficFlow",
+        "provider": "HERE.trafficFlow"
+      }
+    ]
+  },
+  {
+    "label": "HEREv3",
+    "disabled": true,
+    "children": [
+      {
+        "label": "basicMap",
+        "provider": "HEREv3.basicMap"
+      },
+      {
+        "label": "carnavDayGrey",
+        "provider": "HEREv3.carnavDayGrey"
+      },
+      {
+        "label": "hybridDay",
+        "provider": "HEREv3.hybridDay"
+      },
+      {
+        "label": "hybridDayGrey",
+        "provider": "HEREv3.hybridDayGrey"
+      },
+      {
+        "label": "hybridDayMobile",
+        "provider": "HEREv3.hybridDayMobile"
+      },
+      {
+        "label": "hybridDayTransit",
+        "provider": "HEREv3.hybridDayTransit"
+      },
+      {
+        "label": "mapLabels",
+        "provider": "HEREv3.mapLabels"
+      },
+      {
+        "label": "normalDay",
+        "provider": "HEREv3.normalDay"
+      },
+      {
+        "label": "normalDayCustom",
+        "provider": "HEREv3.normalDayCustom"
+      },
+      {
+        "label": "normalDayGrey",
+        "provider": "HEREv3.normalDayGrey"
+      },
+      {
+        "label": "normalDayGreyMobile",
+        "provider": "HEREv3.normalDayGreyMobile"
+      },
+      {
+        "label": "normalDayMobile",
+        "provider": "HEREv3.normalDayMobile"
+      },
+      {
+        "label": "normalDayTransit",
+        "provider": "HEREv3.normalDayTransit"
+      },
+      {
+        "label": "normalDayTransitMobile",
+        "provider": "HEREv3.normalDayTransitMobile"
+      },
+      {
+        "label": "normalNight",
+        "provider": "HEREv3.normalNight"
+      },
+      {
+        "label": "normalNightGrey",
+        "provider": "HEREv3.normalNightGrey"
+      },
+      {
+        "label": "normalNightGreyMobile",
+        "provider": "HEREv3.normalNightGreyMobile"
+      },
+      {
+        "label": "normalNightMobile",
+        "provider": "HEREv3.normalNightMobile"
+      },
+      {
+        "label": "normalNightTransit",
+        "provider": "HEREv3.normalNightTransit"
+      },
+      {
+        "label": "normalNightTransitMobile",
+        "provider": "HEREv3.normalNightTransitMobile"
+      },
+      {
+        "label": "pedestrianDay",
+        "provider": "HEREv3.pedestrianDay"
+      },
+      {
+        "label": "pedestrianNight",
+        "provider": "HEREv3.pedestrianNight"
+      },
+      {
+        "label": "reducedDay",
+        "provider": "HEREv3.reducedDay"
+      },
+      {
+        "label": "reducedNight",
+        "provider": "HEREv3.reducedNight"
+      },
+      {
+        "label": "satelliteDay",
+        "provider": "HEREv3.satelliteDay"
+      },
+      {
+        "label": "terrainDay",
+        "provider": "HEREv3.terrainDay"
+      },
+      {
+        "label": "terrainDayMobile",
+        "provider": "HEREv3.terrainDayMobile"
+      },
+      {
+        "label": "trafficFlow",
+        "provider": "HEREv3.trafficFlow"
+      }
+    ]
+  },
+  {
+    "label": "HikeBike",
+    "children": [
+      {
+        "label": "Base",
+        "provider": "HikeBike.HikeBike"
+      },
+      {
+        "label": "HillShading",
+        "provider": "HikeBike.HillShading"
+      }
+    ]
+  },
+  {
+    "label": "Hydda",
+    "children": [
+      {
+        "label": "Base",
+        "provider": "Hydda.Base"
+      },
+      {
+        "label": "Full",
+        "provider": "Hydda.Full"
+      },
+      {
+        "label": "RoadsAndLabels",
+        "provider": "Hydda.RoadsAndLabels"
+      }
+    ]
+  },
+  {
+    "label": "Jawg",
+    "disabled": true,
+    "children": [
+      {
+        "label": "Dark",
+        "provider": "Jawg.Dark"
+      },
+      {
+        "label": "Light",
+        "provider": "Jawg.Light"
+      },
+      {
+        "label": "Matrix",
+        "provider": "Jawg.Matrix"
+      },
+      {
+        "label": "Streets",
+        "provider": "Jawg.Streets"
+      },
+      {
+        "label": "Sunny",
+        "provider": "Jawg.Sunny"
+      },
+      {
+        "label": "Terrain",
+        "provider": "Jawg.Terrain"
+      }
+    ]
+  },
+  {
+    "label": "JusticeMap",
+    "children": [
+      {
+        "label": "americanIndian",
+        "provider": "JusticeMap.americanIndian"
+      },
+      {
+        "label": "asian",
+        "provider": "JusticeMap.asian"
+      },
+      {
+        "label": "black",
+        "provider": "JusticeMap.black"
+      },
+      {
+        "label": "hispanic",
+        "provider": "JusticeMap.hispanic"
+      },
+      {
+        "label": "income",
+        "provider": "JusticeMap.income"
+      },
+      {
+        "label": "multi",
+        "provider": "JusticeMap.multi"
+      },
+      {
+        "label": "nonWhite",
+        "provider": "JusticeMap.nonWhite"
+      },
+      {
+        "label": "plurality",
+        "provider": "JusticeMap.plurality"
+      },
+      {
+        "label": "white",
+        "provider": "JusticeMap.white"
+      }
+    ]
+  },
+  {
+    "label": "MapBox",
+    "provider": "MapBox",
+    "disabled": true
+  },
+  {
+    "label": "MapTiler",
+    "disabled": true,
+    "children": [
+      {
+        "label": "Basic",
+        "provider": "MapTiler.Basic"
+      },
+      {
+        "label": "Bright",
+        "provider": "MapTiler.Bright"
+      },
+      {
+        "label": "Hybrid",
+        "provider": "MapTiler.Hybrid"
+      },
+      {
+        "label": "Pastel",
+        "provider": "MapTiler.Pastel"
+      },
+      {
+        "label": "Positron",
+        "provider": "MapTiler.Positron"
+      },
+      {
+        "label": "Streets",
+        "provider": "MapTiler.Streets"
+      },
+      {
+        "label": "Toner",
+        "provider": "MapTiler.Toner"
+      },
+      {
+        "label": "Topo",
+        "provider": "MapTiler.Topo"
+      },
+      {
+        "label": "Voyager",
+        "provider": "MapTiler.Voyager"
+      }
+    ]
+  },
+  {
+    "label": "MtbMap",
+    "provider": "MtbMap"
+  },
+  {
+    "label": "NASAGIBS",
+    "children": [
+      {
+        "label": "ModisTerraAOD",
+        "provider": "NASAGIBS.ModisTerraAOD"
+      },
+      {
+        "label": "ModisTerraBands367CR",
+        "provider": "NASAGIBS.ModisTerraBands367CR"
+      },
+      {
+        "label": "ModisTerraChlorophyll",
+        "provider": "NASAGIBS.ModisTerraChlorophyll"
+      },
+      {
+        "label": "ModisTerraLSTDay",
+        "provider": "NASAGIBS.ModisTerraLSTDay"
+      },
+      {
+        "label": "ModisTerraSnowCover",
+        "provider": "NASAGIBS.ModisTerraSnowCover"
+      },
+      {
+        "label": "ModisTerraTrueColorCR",
+        "provider": "NASAGIBS.ModisTerraTrueColorCR"
+      },
+      {
+        "label": "ViirsEarthAtNight2012",
+        "provider": "NASAGIBS.ViirsEarthAtNight2012"
+      }
+    ]
+  },
+  {
+    "label": "nlmaps",
+    "children": [
+      {
+        "label": "grijs",
+        "provider": "nlmaps.grijs"
+      },
+      {
+        "label": "luchtfoto",
+        "provider": "nlmaps.luchtfoto"
+      },
+      {
+        "label": "pastel",
+        "provider": "nlmaps.pastel"
+      },
+      {
+        "label": "standaard",
+        "provider": "nlmaps.standaard"
+      }
+    ]
+  },
+  {
+    "label": "NLS",
+    "provider": "NLS"
+  },
+  {
+    "label": "OneMapSG",
+    "children": [
+      {
+        "label": "Default",
+        "provider": "OneMapSG.Default"
+      },
+      {
+        "label": "Grey",
+        "provider": "OneMapSG.Grey"
+      },
+      {
+        "label": "LandLot",
+        "provider": "OneMapSG.LandLot"
+      },
+      {
+        "label": "Night",
+        "provider": "OneMapSG.Night"
+      },
+      {
+        "label": "Original",
+        "provider": "OneMapSG.Original"
+      }
+    ]
+  },
+  {
+    "label": "OpenAIP",
+    "provider": "OpenAIP"
+  },
+  {
+    "label": "OpenFireMap",
+    "provider": "OpenFireMap"
+  },
+  {
+    "label": "OpenRailwayMap",
+    "provider": "OpenRailwayMap"
+  },
+  {
+    "label": "OpenSeaMap",
+    "provider": "OpenSeaMap"
+  },
+  {
+    "label": "OpenSnowMap",
+    "children": [
+      {
+        "label": "pistes",
+        "provider": "OpenSnowMap.pistes"
+      }
+    ]
+  },
+  {
+    "label": "OpenStreetMap",
+    "children": [
+      {
+        "label": "BZH",
+        "provider": "OpenStreetMap.BZH"
+      },
+      {
+        "label": "CH",
+        "provider": "OpenStreetMap.CH"
+      },
+      {
+        "label": "DE",
+        "provider": "OpenStreetMap.DE"
+      },
+      {
+        "label": "France",
+        "provider": "OpenStreetMap.France"
+      },
+      {
+        "label": "HOT",
+        "provider": "OpenStreetMap.HOT"
+      },
+      {
+        "label": "Mapnik",
+        "provider": "OpenStreetMap.Mapnik"
+      }
+    ]
+  },
+  {
+    "label": "OpenTopoMap",
+    "provider": "OpenTopoMap"
+  },
+  {
+    "label": "OpenWeatherMap",
+    "disabled": true,
+    "children": [
+      {
+        "label": "Clouds",
+        "provider": "OpenWeatherMap.Clouds"
+      },
+      {
+        "label": "CloudsClassic",
+        "provider": "OpenWeatherMap.CloudsClassic"
+      },
+      {
+        "label": "Precipitation",
+        "provider": "OpenWeatherMap.Precipitation"
+      },
+      {
+        "label": "PrecipitationClassic",
+        "provider": "OpenWeatherMap.PrecipitationClassic"
+      },
+      {
+        "label": "Pressure",
+        "provider": "OpenWeatherMap.Pressure"
+      },
+      {
+        "label": "PressureContour",
+        "provider": "OpenWeatherMap.PressureContour"
+      },
+      {
+        "label": "Rain",
+        "provider": "OpenWeatherMap.Rain"
+      },
+      {
+        "label": "RainClassic",
+        "provider": "OpenWeatherMap.RainClassic"
+      },
+      {
+        "label": "Snow",
+        "provider": "OpenWeatherMap.Snow"
+      },
+      {
+        "label": "Temperature",
+        "provider": "OpenWeatherMap.Temperature"
+      },
+      {
+        "label": "Wind",
+        "provider": "OpenWeatherMap.Wind"
+      }
+    ]
+  },
+  {
+    "label": "OPNVKarte",
+    "provider": "OPNVKarte"
+  },
+  {
+    "label": "SafeCast",
+    "provider": "SafeCast"
+  },
+  {
+    "label": "Stadia",
+    "children": [
+      {
+        "label": "AlidadeSmooth",
+        "provider": "Stadia.AlidadeSmooth"
+      },
+      {
+        "label": "AlidadeSmoothDark",
+        "provider": "Stadia.AlidadeSmoothDark"
+      },
+      {
+        "label": "OSMBright",
+        "provider": "Stadia.OSMBright"
+      },
+      {
+        "label": "Outdoors",
+        "provider": "Stadia.Outdoors"
+      }
+    ]
+  },
+  {
+    "label": "Stamen",
+    "children": [
+      {
+        "label": "Terrain",
+        "provider": "Stamen.Terrain"
+      },
+      {
+        "label": "TerrainBackground",
+        "provider": "Stamen.TerrainBackground"
+      },
+      {
+        "label": "TerrainLabels",
+        "provider": "Stamen.TerrainLabels"
+      },
+      {
+        "label": "Toner",
+        "provider": "Stamen.Toner"
+      },
+      {
+        "label": "TonerBackground",
+        "provider": "Stamen.TonerBackground"
+      },
+      {
+        "label": "TonerHybrid",
+        "provider": "Stamen.TonerHybrid"
+      },
+      {
+        "label": "TonerLabels",
+        "provider": "Stamen.TonerLabels"
+      },
+      {
+        "label": "TonerLines",
+        "provider": "Stamen.TonerLines"
+      },
+      {
+        "label": "TonerLite",
+        "provider": "Stamen.TonerLite"
+      },
+      {
+        "label": "TopOSMFeatures",
+        "provider": "Stamen.TopOSMFeatures"
+      },
+      {
+        "label": "TopOSMRelief",
+        "provider": "Stamen.TopOSMRelief"
+      },
+      {
+        "label": "Watercolor",
+        "provider": "Stamen.Watercolor"
+      }
+    ]
+  },
+  {
+    "label": "Thunderforest",
+    "disabled": true,
+    "children": [
+      {
+        "label": "Landscape",
+        "provider": "Thunderforest.Landscape"
+      },
+      {
+        "label": "MobileAtlas",
+        "provider": "Thunderforest.MobileAtlas"
+      },
+      {
+        "label": "Neighbourhood",
+        "provider": "Thunderforest.Neighbourhood"
+      },
+      {
+        "label": "OpenCycleMap",
+        "provider": "Thunderforest.OpenCycleMap"
+      },
+      {
+        "label": "Outdoors",
+        "provider": "Thunderforest.Outdoors"
+      },
+      {
+        "label": "Pioneer",
+        "provider": "Thunderforest.Pioneer"
+      },
+      {
+        "label": "SpinalMap",
+        "provider": "Thunderforest.SpinalMap"
+      },
+      {
+        "label": "Transport",
+        "provider": "Thunderforest.Transport"
+      },
+      {
+        "label": "TransportDark",
+        "provider": "Thunderforest.TransportDark"
+      }
+    ]
+  },
+  {
+    "label": "TomTom",
+    "disabled": true,
+    "children": [
+      {
+        "label": "Basic",
+        "provider": "TomTom.Basic"
+      },
+      {
+        "label": "Hybrid",
+        "provider": "TomTom.Hybrid"
+      },
+      {
+        "label": "Labels",
+        "provider": "TomTom.Labels"
+      }
+    ]
+  },
+  {
+    "label": "USGS",
+    "children": [
+      {
+        "label": "USImagery",
+        "provider": "USGS.USImagery"
+      },
+      {
+        "label": "USImageryTopo",
+        "provider": "USGS.USImageryTopo"
+      },
+      {
+        "label": "USTopo",
+        "provider": "USGS.USTopo"
+      }
+    ]
+  },
+  {
+    "label": "WaymarkedTrails",
+    "children": [
+      {
+        "label": "cycling",
+        "provider": "WaymarkedTrails.cycling"
+      },
+      {
+        "label": "hiking",
+        "provider": "WaymarkedTrails.hiking"
+      },
+      {
+        "label": "mtb",
+        "provider": "WaymarkedTrails.mtb"
+      },
+      {
+        "label": "riding",
+        "provider": "WaymarkedTrails.riding"
+      },
+      {
+        "label": "skating",
+        "provider": "WaymarkedTrails.skating"
+      },
+      {
+        "label": "slopes",
+        "provider": "WaymarkedTrails.slopes"
+      }
+    ]
+  }
+]

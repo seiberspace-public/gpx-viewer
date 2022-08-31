@@ -6,7 +6,7 @@
       </div>
 
       <div class="text-h2" style="opacity:.4">
-        Oops. Nothing here...
+        {{t('pageNotFound')}}
       </div>
 
       <q-btn
@@ -23,9 +23,21 @@
 </template>
 
 <script>
-import { defineComponent } from 'vue'
+import { defineComponent } from 'vue';
+import { useMeta } from 'quasar';
+import { useI18n } from 'vue-i18n';
 
 export default defineComponent({
-  name: 'ErrorNotFound'
-})
+  name: 'ErrorNotFound',
+
+  setup() {
+    const { t } = useI18n();
+
+    useMeta(() => ({
+      title: t('appTitle'),
+    }));
+
+    return { t };
+  },
+});
 </script>
